@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/main@v1
+      - uses: actions/setup@v1
       - run: echo Hello thanks for teaching 
   
